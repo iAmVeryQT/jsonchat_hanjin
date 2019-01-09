@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.8.0, 2019-01-07T03:14:27. -->
+<!-- Written by QtCreator 4.8.0, 2019-01-07T03:16:00. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -296,8 +296,8 @@
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">jsonchat_hanjin</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/HJ/Documents/aaa/jsonchat_hanjin.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">jsonchat_hanjin2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/HJ/Documents/GitHub/jsonchat_hanjin/jsonchat_hanjin.pro</value>
     <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">jsonchat_hanjin.pro</value>
     <value type="QString" key="RunConfiguration.Arguments"></value>
     <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>

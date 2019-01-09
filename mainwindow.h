@@ -19,6 +19,10 @@ public:
 private slots:
     void on_hosturl_textChanged();
 
+    void on_chatWindow_returnPressed();
+
+    void recvEchoMsg();
+
 private:
     Ui::MainWindow *ui;
     QTcpSocket jsonServer;
