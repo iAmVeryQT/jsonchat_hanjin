@@ -43,9 +43,10 @@ void MainWindow::on_hosturl_textChanged()
 void MainWindow::on_chatWindow_returnPressed()
 {
     QString chatMsg = ui->chatWindow->text();
+    // protocol format
     QString msg = "#json begin {";
     msg += "'type': 'chat',";
-    msg += "'root': 'room1',";
+    msg += "'room': '#1',";
     msg += "'text': '" + chatMsg + "'";
     msg += "} #json end";
     char* temp = msg.toUtf8().data();
