@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <QTcpSocket>
+#include <QFile>
 
 namespace Ui {
 class MainWindow;
@@ -35,6 +36,7 @@ private:
     QTcpSocket jsonServer;
     QMap<QString, QString> MSG_TYPE;
     QMap<QString, QString> MSG_SUB_TYPE;
+    QList<QFile*> mFileList;
 };
 
 #endif // MAINWINDOW_H
