@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include <QTcpSocket>
 #include <QFile>
+#include <QPushButton>
 
 namespace Ui {
 class MainWindow;
@@ -17,9 +18,13 @@ public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+    void processStreamMsg(const char* data);
+
+    void captureJSON(const QJsonDocument jsonDoc);
+
 private slots:
 
-    void recvEchoMsg();
+    void receiveMsgFromServer();
 
     void on_connBtn_clicked();
 
@@ -29,14 +34,16 @@ private slots:
 
     void on_getItem_released();
 
-    void onDownloadBtn();
+    void onClickDNBtn();
 
 private:
     Ui::MainWindow *ui;
     QTcpSocket jsonServer;
     QMap<QString, QString> MSG_TYPE;
     QMap<QString, QString> MSG_SUB_TYPE;
-    QList<QFile*> mFileList;
+    QList<QFile*> dnIngFileList;
+    QString receivedData;
+    QString host;
 };
 
 #endif // MAINWINDOW_H
