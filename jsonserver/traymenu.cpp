@@ -23,10 +23,10 @@ void TrayMenu::on_onoff_toggled(bool checked)
 
     if(checked) {
         qDebug() << "setServerOn";
-        mWindow.SetServerOn();
+        mWindow.ServerOn();
     } else {
         qDebug() << "setServerOff";
-        mWindow.SetServerOff();
+        mWindow.ServerOff();
     }
 }
 

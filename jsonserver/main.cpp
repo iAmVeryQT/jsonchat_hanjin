@@ -1,6 +1,5 @@
-//#include "mainwindow.h"
-#include <QApplication>
 #include "trayicon.h"
+#include <QApplication>
 
 int main(int argc, char *argv[])
 {

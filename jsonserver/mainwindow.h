@@ -1,8 +1,8 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include <QMainWindow>
 #include "chatserver.h"
+#include <QMainWindow>
 
 namespace Ui {
     class MainWindow;
@@ -13,11 +13,11 @@ class MainWindow : public QMainWindow
     Q_OBJECT
 
 public:
-    explicit MainWindow(QWidget *parent = 0);
+    explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
-    void SetServerOn();
-    void SetServerOff();
+    void ServerOn();
+    void ServerOff();
 
 private:
     void closeEvent(QCloseEvent* e) Q_DECL_OVERRIDE; // 오버라이드 명시

@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QTableView" name="tableView">
+   <widget class="QTableView" name="user">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -63,7 +63,7 @@
      <string>초기화</string>
     </property>
    </widget>
-   <widget class="QListWidget" name="listWidget">
+   <widget class="QListWidget" name="log">
     <property name="geometry">
      <rect>
       <x>10</x>
